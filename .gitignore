@@ -1,0 +1,6 @@
+# Material interno del equipo: no se publica en GitHub Pages
+info/
+assets/
+.agents/
+.claude/
+skills-lock.json

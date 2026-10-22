@@ -1,0 +1,25 @@
+{
+  "name": "CTRL+R - Aprende jugando con Sanik",
+  "short_name": "CTRL+R",
+  "description": "Aprende jugando con Sanik. Primaria y Secundaria, funciona sin internet.",
+  "id": "./",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "lang": "es-GT",
+  "background_color": "#FFFFFF",
+  "theme_color": "#1B3C59",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Comunicación y Lenguaje", "short_name": "Comunicación", "url": "./?materia=comunicacion", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Matemáticas", "short_name": "Matemáticas", "url": "./?materia=matematicas", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Ciencia y Ciudadanía", "short_name": "Ciencia", "url": "./?materia=ciencia", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Educación Artística", "short_name": "Artística", "url": "./?materia=artistica", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] }
+  ],
+  "categories": ["education", "games", "kids"]
+}
